@@ -82,7 +82,7 @@ Laravel関連のコマンドはDockerで用意した、WEBサーバー（コン�
 docker exec -it laravel9-web bash
 ```
 
-#### composer install
+#### composer installcd
 
 ```bash
 # ■ WEBサーバーで入力
@@ -107,7 +107,6 @@ cp .env.dev .env
 chmod -R 777 bootstrap/cache/
 chmod -R 777 storage/
 ```
-
 ### 確認
 
 - WEB ※ ポート番号は [`.env`](./.env) の `PORT_WEB` を参照
