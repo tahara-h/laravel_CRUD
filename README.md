@@ -79,7 +79,7 @@ Laravel関連のコマンドはDockerで用意した、WEBサーバー（コン�
 ```bash
 # ターミナルで実行
 ## WEBサーバーに入るコマンド
-docker exec -it laravel9-web bash
+docker exec -it laravel9_CRUD-web bash
 ```
 
 #### composer installcd
