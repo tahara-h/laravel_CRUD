@@ -29,3 +29,5 @@ Route::prefix('admin')->name('admin')->group(function () {
         Route::post('{job}/confirm', 'confirm')->name('.confirm');
     });
 });
+//確認用
+Route::view("bese","admin/base");
